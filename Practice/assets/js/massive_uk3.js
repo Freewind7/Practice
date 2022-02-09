@@ -323,44 +323,44 @@ function calcEducDoc(evaluate) {
             {
               id:  "09",
               name: "Біологія",
-              coef: 0.39,
+              coef: 0.35,
              }
           ],
           non_required_subjects: [
             {
              id: "08",
              name: "Історія України",
-             coef: 0.3,
+             coef: 0.35,
             },
 
             {
              id: "03",
              name: "Математика",
-             coef: 0.3,
+             coef: 0.35,
             },
 
             {
              id: "04",
              name: "Іноземна мова",
-             coef: 0.3,
+             coef: 0.35,
             },
 
             {
              id: "05",
              name: "Географія",
-             coef: 0.3,
+             coef: 0.35,
             },
 
             {
              id: "06",
              name: "Фізика",
-             coef: 0.3,
+             coef: 0.35,
             },
 
             {
              id: "07",
              name: "Хімія",
-             coef: 0.3,
+             coef: 0.35,
             }
 
         ],},
@@ -369,120 +369,6 @@ function calcEducDoc(evaluate) {
           name: "Середня освіта (Географія)",
           requires_special_support: true,
           lastyear_min_grade_budget: 148.314,
-          required_subjects_1: [
-            {
-              id: "01",
-              name: "Українська мова",
-              coef: 0.2,
-             }
-          ],
-          required_subjects_2: [
-            {
-              id:  "05",
-              name: "Географія",
-              coef: 0.39,
-             }
-          ],
-          non_required_subjects: [
-            {
-             id: "08",
-             name: "Історія України",
-             coef: 0.3,
-            },
-
-            {
-             id: "03",
-             name: "Математика",
-             coef: 0.3,
-            },
-
-            {
-             id: "04",
-             name: "Іноземна мова",
-             coef: 0.3,
-            },
-
-            {
-             id: "09",
-             name: "Біологія",
-             coef: 0.3,
-            },
-
-            {
-             id: "06",
-             name: "Фізика",
-             coef: 0.3,
-            },
-
-            {
-             id: "07",
-             name: "Хімія",
-             coef: 0.3,
-            }
-
-        ],},
-    
-          {06: num = "103 ",
-          name: "Науки про Землю",
-          requires_special_support: true,
-          lastyear_min_grade_budget: 159.99,
-          required_subjects_1: [
-            {
-              id: "01",
-              name: "Українська мова",
-              coef: 0.2,
-             }
-          ],
-          required_subjects_2: [
-            {
-              id:  "03",
-              name: "Математика",
-              coef: 0.39,
-             }
-          ],
-          non_required_subjects: [
-            {
-             id: "08",
-             name: "Історія України",
-             coef: 0.3,
-            },
-
-            {
-             id: "09",
-             name: "Біологія",
-             coef: 0.3,
-            },
-
-            {
-             id: "04",
-             name: "Іноземна мова",
-             coef: 0.3,
-            },
-
-            {
-             id: "05",
-             name: "Географія",
-             coef: 0.3,
-            },
-
-            {
-             id: "06",
-             name: "Фізика",
-             coef: 0.3,
-            },
-
-            {
-             id: "07",
-             name: "Хімія",
-             coef: 0.3,
-            }
-
-        ],},
-        
-          {07: num = "106 ",
-          name: "Географія",
-          requires_special_support: true,
-          lastyear_min_grade_budget: 0.0,
           required_subjects_1: [
             {
               id: "01",
@@ -532,6 +418,120 @@ function calcEducDoc(evaluate) {
              id: "07",
              name: "Хімія",
              coef: 0.29,
+            }
+
+        ],},
+    
+          {06: num = "103 ",
+          name: "Науки про Землю",
+          requires_special_support: true,
+          lastyear_min_grade_budget: 159.99,
+          required_subjects_1: [
+            {
+              id: "01",
+              name: "Українська мова",
+              coef: 0.2,
+             }
+          ],
+          required_subjects_2: [
+            {
+              id:  "03",
+              name: "Математика",
+              coef: 0.35,
+             }
+          ],
+          non_required_subjects: [
+            {
+             id: "08",
+             name: "Історія України",
+             coef: 0.34,
+            },
+
+            {
+             id: "09",
+             name: "Біологія",
+             coef: 0.34,
+            },
+
+            {
+             id: "04",
+             name: "Іноземна мова",
+             coef: 0.34,
+            },
+
+            {
+             id: "05",
+             name: "Географія",
+             coef: 0.34,
+            },
+
+            {
+             id: "06",
+             name: "Фізика",
+             coef: 0.34,
+            },
+
+            {
+             id: "07",
+             name: "Хімія",
+             coef: 0.34,
+            }
+
+        ],},
+        
+          {07: num = "106 ",
+          name: "Географія",
+          requires_special_support: true,
+          lastyear_min_grade_budget: 0.0,
+          required_subjects_1: [
+            {
+              id: "01",
+              name: "Українська мова",
+              coef: 0.2,
+             }
+          ],
+          required_subjects_2: [
+            {
+              id:  "05",
+              name: "Географія",
+              coef: 0.4,
+             }
+          ],
+          non_required_subjects: [
+            {
+             id: "08",
+             name: "Історія України",
+             coef: 0.3,
+            },
+
+            {
+             id: "03",
+             name: "Математика",
+             coef: 0.3,
+            },
+
+            {
+             id: "04",
+             name: "Іноземна мова",
+             coef: 0.3,
+            },
+
+            {
+             id: "09",
+             name: "Біологія",
+             coef: 0.3,
+            },
+
+            {
+             id: "06",
+             name: "Фізика",
+             coef: 0.3,
+            },
+
+            {
+             id: "07",
+             name: "Хімія",
+             coef: 0.3,
             }
 
         ],},
@@ -1747,14 +1747,14 @@ function calcEducDoc(evaluate) {
             {
               id: "02",
               name: "Українська мова і література",
-              coef: 0.35,
+              coef: 0.3,
              }
           ],
           required_subjects_2: [
             {
               id:  "08",
               name: "Історія України",
-              coef: 0.3,
+              coef: 0.35,
              }
           ],
           non_required_subjects: [
@@ -1859,27 +1859,27 @@ function calcEducDoc(evaluate) {
             {
               id: "02",
               name: "Українська мова і література",
-              coef: 0.2,
+              coef: 0.25,
              }
           ],
           required_subjects_2: [
             {
               id: "08",
               name: "Історія України",
-              coef: 0.2,
+              coef: 0.25,
              },
  
              {
               id: "07",
               name: "Хімія",
-              coef: 0.2,
+              coef: 0.25,
              }
           ],
           non_required_subjects: [
             {
              id: "10",
              name: "Творчий конкурс",
-             coef: 0.5,
+             coef: 0.4,
             }
         ],},
 
@@ -1891,27 +1891,27 @@ function calcEducDoc(evaluate) {
             {
               id: "02",
               name: "Українська мова і література",
-              coef: 0.2,
+              coef: 0.25,
              }
           ],
           required_subjects_2: [
             {
               id: "08",
               name: "Історія України",
-              coef: 0.2,
+              coef: 0.25,
              },
  
              {
               id: "09",
               name: "Біологія",
-              coef: 0.2,
+              coef: 0.25,
              }
           ],
           non_required_subjects: [
             {
              id: "10",
              name: "Творчий конкурс",
-             coef: 0.5,
+             coef: 0.4,
             }
         ],},
 
@@ -1923,31 +1923,31 @@ function calcEducDoc(evaluate) {
             {
               id: "02",
               name: "Українська мова і література",
-              coef: 0.2,
+              coef: 0.25,
              }
           ],
           required_subjects_2: [
             {
               id: "08",
               name: "Історія України",
-              coef: 0.2,
+              coef: 0.25,
              },
              {
               id: "03",
               name: "Математика",
-              coef: 0.2,
+              coef: 0.25,
              },
              {
               id: "04",
               name: "Іноземна мова",
-              coef: 0.2,
+              coef: 0.25,
              }
           ],
           non_required_subjects: [
             {
              id: "10",
              name: "Творчий конкурс",
-             coef: 0.5,
+             coef: 0.4,
             }
         ],},
 
