@@ -371,8 +371,8 @@ function calcEducDoc(evaluate) {
           lastyear_min_grade_budget: 148.314,
           required_subjects_1: [
             {
-              id: "01",
-              name: "Українська мова",
+              id: "02",
+              name: "Українська мова і література",
               coef: 0.2,
              }
           ],
@@ -542,7 +542,7 @@ function calcEducDoc(evaluate) {
           lastyear_min_grade_budget: 138.008,
           required_subjects_1: [
             {
-              id: "01",
+              id: "02",
               name: "Українська мова і література",
               coef: 0.3,
              }
@@ -1696,21 +1696,21 @@ function calcEducDoc(evaluate) {
           ],
           required_subjects_2: [
             {
-              id:  "08",
-              name: "Історія України",
+              id:  "03",
+              name: "Математика",
               coef: 0.3,
              }
           ],
           non_required_subjects: [
             {
-             id: "09",
-             name: "Біологія",
+             id: "08",
+             name: "Історія України",
              coef: 0.2,
             },
 
             {
-             id: "03",
-             name: "Математика",
+             id: "09",
+             name: "Біологія",
              coef: 0.2,
             },
 
@@ -1808,8 +1808,8 @@ function calcEducDoc(evaluate) {
           ],
           required_subjects_2: [
             {
-              id:  "08",
-              name: "Історія України",
+              id:  "03",
+              name: "Математика",
               coef: 0.3,
              }
           ],
@@ -1821,8 +1821,8 @@ function calcEducDoc(evaluate) {
             },
 
             {
-             id: "03",
-             name: "Математика",
+             id: "08",
+             name: "Історія України",
              coef: 0.3,
             },
 
@@ -2079,18 +2079,18 @@ function calcEducDoc(evaluate) {
               id:  "03",
               name: "Математика",
               coef: 0.5,
+             },
+
+             {
+              id: "07",
+              name: "Хімія",
+              coef: 0.5,
              }
           ],
           non_required_subjects: [
             {
              id: "06",
              name: "Фізика",
-             coef: 0.2,
-            },
-
-            {
-             id: "07",
-             name: "Хімія",
              coef: 0.2,
             },
 
@@ -2117,18 +2117,18 @@ function calcEducDoc(evaluate) {
               id:  "03",
               name: "Математика",
               coef: 0.5,
-             }
+             },
+
+             {
+              id: "07",
+              name: "Хімія",
+              coef: 0.5,
+             },
           ],
           non_required_subjects: [
             {
              id: "06",
              name: "Фізика",
-             coef: 0.2,
-            },
-
-            {
-             id: "07",
-             name: "Хімія",
              coef: 0.2,
             },
 
@@ -2155,18 +2155,18 @@ function calcEducDoc(evaluate) {
               id:  "03",
               name: "Математика",
               coef: 0.4,
+             },
+
+             {
+              id: "07",
+              name: "Хімія",
+              coef: 0.4,
              }
           ],
           non_required_subjects: [
             {
              id: "06",
              name: "Фізика",
-             coef: 0.25,
-            },
-
-            {
-             id: "07",
-             name: "Хімія",
              coef: 0.25,
             },
 
@@ -2289,63 +2289,7 @@ function calcEducDoc(evaluate) {
             }
         ],},
 
-          {42: num = "292",
-          name:"Міжнародні економічні відносини",
-          requires_special_support: false,
-          lastyear_min_grade_budget: 0.0,
-          required_subjects_1: [
-            {
-              id: "02",
-              name: "Українська мова і література",
-              coef: 0.3,
-             }
-          ],
-          required_subjects_2: [
-            {
-              id:  "03",
-              name: "Математика",
-              coef: 0.3,
-             }
-          ],
-          non_required_subjects: [
-            {
-             id: "08",
-             name: "Історія України",
-             coef: 0.3,
-            },
-
-            {
-             id: "09",
-             name: "Біологія",
-             coef: 0.3,
-            },
-
-            {
-             id: "04",
-             name: "Іноземна мова",
-             coef: 0.3,
-            },
-
-            {
-             id: "05",
-             name: "Географія",
-             coef: 0.3,
-            },
-
-            {
-             id: "06",
-             name: "Фізика",
-             coef: 0.3,
-            },
-
-            {
-             id: "07",
-             name: "Хімія",
-             coef: 0.3,
-            }
-        ],},
-        
-          {43: num = "014.04",
+          {42: num = "014.04",
           name:"Середня освіта (Математика)",
           requires_special_support: true,
           lastyear_min_grade_budget: 141.32,
@@ -2401,7 +2345,7 @@ function calcEducDoc(evaluate) {
             }
         ],},
 
-          {44: num = "014.09",
+          {43: num = "014.09",
           name:"Середня освіта (Інформатика)",
           requires_special_support: true,
           lastyear_min_grade_budget: 157.986,
@@ -2457,7 +2401,7 @@ function calcEducDoc(evaluate) {
             }
         ],},
 
-          {45: num = "014.08 ",
+          {44: num = "014.08 ",
           name:"Середня освіта (Фізика)",
           requires_special_support: true,
           lastyear_min_grade_budget: 126.49,
@@ -2513,7 +2457,7 @@ function calcEducDoc(evaluate) {
             }
         ],},
 
-          {46: num = "104",
+          {45: num = "104",
           name:"Фізика та астрономія",
           requires_special_support: false,
           lastyear_min_grade_budget: 0.0,
@@ -2569,7 +2513,7 @@ function calcEducDoc(evaluate) {
             }
         ],},
 
-          {47: num = "121",
+          {46: num = "121",
           name:"Інженерія програмного забезпечення",
           requires_special_support: false,
           lastyear_min_grade_budget: 180.544,
@@ -2625,7 +2569,7 @@ function calcEducDoc(evaluate) {
             }
         ],},
 
-          {48: num = "122",
+          {47: num = "122",
           name:"Комп’ютерні науки",
           requires_special_support: false,
           lastyear_min_grade_budget: 174.408,
@@ -2681,7 +2625,7 @@ function calcEducDoc(evaluate) {
             }
         ],},
 
-          {49: num = "126",
+          {48: num = "126",
           name:"Інформаційні системи та технології",
           requires_special_support: false,
           lastyear_min_grade_budget: 165.273,
@@ -2738,7 +2682,7 @@ function calcEducDoc(evaluate) {
 
         ],},
       
-          {50: num = "017",
+          {49: num = "017",
           name:"Фізична культура і спорт",
           requires_special_support: false,
           lastyear_min_grade_budget: 144.5,
@@ -2788,7 +2732,7 @@ function calcEducDoc(evaluate) {
     // debugger;
     if(select1.value == 0 || select2.value == 0) {alert('Оберіть предмети ЗНО в усіх полях!'); return;}
     if(select1.value == select2.value) {alert('Обрані предмети ЗНО не повинні бути однаковими! Оберіть інший предмет'); return;}
-    if(inputRez00.value == '' || inputRez11.value == '' || inputRez22.value == '' || inputRez33.value == '') {alert('Укажіть усі результати ЗНО!'); return;}
+    if(inputRez00.value == '' || inputRez11.value == '' || inputRez22.value == '' || inputRez33.value == '') {alert('Укажіть усі результати ЗНО!'); return;} 
     Result.innerHTML='';
     if (inputRez33.value < 100) {
         inputRez33.value = calcEducDoc(inputRez33.value);
