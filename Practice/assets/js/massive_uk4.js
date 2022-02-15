@@ -252,7 +252,7 @@ function calcEducDoc(evaluate) {
         
           {03: num = "091",
           name: "Біологія",
-          requires_special_support: true,
+          requires_special_support: false,
           lastyear_min_grade_budget: 172.518,
           required_subjects_1: [
             {
@@ -481,7 +481,7 @@ function calcEducDoc(evaluate) {
         
           {07: num = "106 ",
           name: "Географія",
-          requires_special_support: true,
+          requires_special_support: false,
           lastyear_min_grade_budget: 0.0,
           required_subjects_1: [
             {
@@ -2459,7 +2459,7 @@ function calcEducDoc(evaluate) {
 
           {45: num = "104",
           name:"Фізика та астрономія",
-          requires_special_support: false,
+          requires_special_support: true,
           lastyear_min_grade_budget: 0.0,
           required_subjects_1: [
             {
@@ -2762,8 +2762,9 @@ function calcEducDoc(evaluate) {
        // alert('check')
        if (sp.requires_special_support) sk = 1.05;
        else sk = 1.02;
-        result = (coef1 * inputRez00.value + coef2 * inputRez11.value + coef3 * inputRez22.value +  0.1 * inputRez33.value) * sk; 
-    } else {
+        result = (coef1 * inputRez00.value + coef2 * inputRez11.value + coef3 * inputRez22.value +  0.1 * inputRez33.value) * sk *rk; 
+    } 
+    else {
       //  alert('not check')
         result = (coef1 * inputRez00.value + coef2 * inputRez11.value + coef3 * inputRez22.value +  0.1 * inputRez33.value) * rk;
     }

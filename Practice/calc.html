@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/calcstyle.css">
 </head>
 <body>
-    <p>Calculator</p>
+    <h3>Розрахунок конкурсного балу</h3>
     <div id="calculator">
         <form id="Rozrah">
             <table id="roztable">
@@ -15,32 +16,32 @@
                 <tr class="p0 hidden">
                     <td><label class="p0" for="p0"><select id="p0" name="subject1" size="1"> <option value="01">Українська мова</option> <option value="02">Українська мова і література</option> </select></label></td>
                     <td>Обов'язковий предмет</td>
-                    <td><input id="p00" class="inputrez" title="Бал ЗНО 1" type="text" name="p0" value="" maxlength="8" />&nbsp;</td>
+                    <td><input id="p00" class="inputrez" title="Бал ЗНО 1" type="text" name="p0" value="" maxlength="3" placeholder="Введіть число від 100 до 200"/>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr class="p1 hidden">
                     <td><label class="p1" for="p1"><select id="p1" name="subject4" size="1"> <option value="0"></option> <option value="03">Математика</option> <option value="08">Історія України</option> <option value="06">Фізика</option> <option value="07">Хімія</option> <option value="09">Біологія</option> <option value="05">Географія</option> <option value="04">Іноземна мова</option> </select></label></td>
                     <td>Обов'язковий предмет</td>
-                    <td><input id="p11" class="inputrez" title="Бал ЗНО 2" type="text" name="p1" value="" maxlength="8" />&nbsp;</td>
+                    <td><input id="p11" class="inputrez" title="Бал ЗНО 2" type="text" name="p1" value="" maxlength="3" placeholder="Введіть число від 100 до 200"/>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr class="p2 hidden">
                     <td><label class="p2" for="p2"><select id="p2" name="subject4" size="1"> <option value="0"></option> <option value="03">Математика</option> <option value="08">Історія України</option> <option value="06">Фізика</option> <option value="07">Хімія</option> <option value="09">Біологія</option> <option value="05">Географія</option> <option value="04">Іноземна мова</option> <option value="10">Творчий конкурс</option> </select></label></td>
                     <td>Необов'язковий предмет (або творчий конкурс)</td>
-                    <td><input id="p22" class="inputrez" title="Бал ЗНО 3, або творчий конкурс" type="text" name="p2" value="" maxlength="8" />&nbsp;</td>
+                    <td><input id="p22" class="inputrez" title="Бал ЗНО 3, або творчий конкурс" type="text" name="p2" value="" maxlength="3" placeholder="Введіть число від 100 до 200"/>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr class="p3 hidden">
                     <td colspan="2"><label id="p3" for="p3">Сер.бал документа про освіту</label></td>
-                    <td><input id="p33" class="inputrez" title="Сер.бал документа про освіту" type="text" name="p3" value="" maxlength="8" />&nbsp;</td>
+                    <td><input id="p33" class="inputrez1" title="Сер.бал документа про освіту" type="text" name="p3" value="" maxlength="3"  placeholder="Введіть число від 1 до 12" />&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr class="c2 hidden">
-                    <td colspan="2"><label class="c2" for="c2">Сільський коефіцієнт</label></td>
+                    <td colspan="2"><label class="c2" title="Дорівнює 1.02 для осіб, зареєстрованих у селах та які здобули повну загальну середню освіту у закладах освіти,що знаходиться на території сіл, у рік вступу(1.05 - для спеціальностей (предметних спеціальностей,спеціалізацій),передбачених у Переліку спеціальностей,яким надається особлива підтримка;1.00-в інших випадках" for="c2">Сільський коефіцієнт</label></td>
                     <td><input id="c2" class="inputrez" title="Сільський коефіцієнт" type="checkbox" name="c2" maxlength="5" />&nbsp;</td>
                 </tr>
                 <tr class="c3 hidden">
-                    <td colspan="2"><label class="c3" for="c3">Галузевий коефіцієнт</label></td>
+                    <td colspan="2"><label class="c3" title="Дорівнює 1.02 для поданих заяв із приорітетністю 1 та 2 на спеціальності (предметні спеціальності,спеціалізації),передбачені в Переліку спеціальностей,яким надається особлива підтримка;1.00 - в інших випадках;" for="c3">Галузевий коефіцієнт</label><p class="coef">*Для отримання детальної інформації, наведіть курсор на коефіцієнт </p></td>
                     <td><input id="c3" class="inputrez" title="Галузевий коефіцієнт" type="checkbox" name="c3" />&nbsp;</td>
                 </tr>
                 <tr>
@@ -50,10 +51,11 @@
                 <tr>
                     <td class="txtcntr" colspan="4" align="center"><input id="rozsubmit" type="button" value="РОЗРАХУВАТИ КОНКУРСНИЙ БАЛ" /></td>
                     <td>&nbsp;</td>
+                    
                 </tr>   
             </table>
         </form>         
     </div>
-<script src="./assets/js/massive_uk3.js"></script>    
+<script src="./assets/js/massive_uk4.js"></script>    
 </body>
 

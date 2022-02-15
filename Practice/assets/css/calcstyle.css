@@ -1,0 +1,19 @@
+
+
+.inputrez {
+    font-size: small;
+    font-weight: 100;
+}
+
+.coef {
+    font-size: small;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+}
+
+.c2 {
+    width: 100%;
+}
